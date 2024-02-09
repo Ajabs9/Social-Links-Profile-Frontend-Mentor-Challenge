@@ -52,16 +52,21 @@ p{
     color: white;
 }
 
+.btn-links{
+    width: 100%;
+    margin-bottom: 13px;
+    text-decoration: none;
+}
+
 .btn{
-    color: white;
     background-color: hsl(0, 0%, 20%);
     border: none;
     border-radius: 5px;
-    width: 100%;
     height: 40px;
-    margin-bottom: 13px;
-    cursor: pointer;
+    width: 100%;
+    color: white;
     font-weight: 400;
+    cursor: pointer;
 }
 
 .btn:last-of-type{
@@ -70,10 +75,12 @@ p{
 
 .btn:hover, .btn:focus{
     background-color: hsl(75, 94%, 57%);
-    color: black;
 }
 
 .btn:active{
     background-color: hsl(75, 71%, 50%);
+}
+
+.btn a:hover, .btn a:focus, .btn a:active{
     color: black;
 }
